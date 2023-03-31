@@ -86,7 +86,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+   .content-wrapper {
+    width: 90%;
+    padding: 50px 0;
+  }
 /*-------------------- Base Header - Footer Styles -------------------- */
 
 header,
@@ -97,11 +100,22 @@ footer {
     flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -109,11 +123,21 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+}
+
+footer {
+  flex-direction: column;
+}
+
+footer p {
+  margin: 0;
 }
 
 footer .social-icons {
@@ -126,7 +150,15 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+.copyright {
+  padding: 20px 0;
 }
 
 
@@ -138,8 +170,6 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-
-
 }
 
 /* Aside */
@@ -150,13 +180,39 @@ aside {
   flex-flow: row wrap;
 }
 
+aside h3 {
+  Padding: 20px 0;
+}
+
+aside p {
+  padding-bottom: 30px;
+}
+
+aside .form {
+  padding: 1em;
+  margin-top: 20px ;
+  margin-bottom: 50px;
+}
+
 /* Features */
 
 .features {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
 
+.features h2 {
+ margin-bottom: 60px;
+}
+
+.features p {
+  margin: 0;
+}
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
 }
 
 .features .features-items {
@@ -166,15 +222,31 @@ aside {
   flex-flow: row wrap;
 }
 
+.features .features-icon {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.features .features-item-description {
+ padding-bottom: 30px;
+}
+
 /* Reviews */
 
 .reviews {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-
 }
 
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 52%;
+  margin: 20px 0;
+}
 /*-----------------About Page Styles---------------------*/
 
 .mission {
