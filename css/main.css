@@ -229,6 +229,18 @@ footer .copyright {
   
 }
 
+.social-icons i {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 21px;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+}
+
 
 /*-------------------- Main Area Styles - Mobile Homepage -------------------- */
 
