@@ -726,9 +726,9 @@ footer .copyright {
 
 
 
-@media only screen and (min-width: 12000px) {
+@media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
-}
+
 
 /* General Styles */
 .content-wrapper {
@@ -825,6 +825,7 @@ footer h4 {
     line-height: 1;
   }
 
+}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
