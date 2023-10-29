@@ -650,7 +650,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
   }
   
   footer .contact {
@@ -665,6 +664,12 @@
   footer p {
     line-height: 1.285;
   }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+  
   footer .copyright {
     width: 100%;
   }
