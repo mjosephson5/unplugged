@@ -376,6 +376,7 @@
     background-color: #527158;
   }
   
+  
   .map figure {
     width: 100%;
     height: 0;
@@ -402,6 +403,7 @@
     margin: 0;
   }
   
+
   /*-----------------FAQ Page Styles---------------------*/
   .faq {
     display: flex;
@@ -684,7 +686,7 @@
   .mission-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding-top: 20px;
   }
   
