@@ -227,6 +227,10 @@
   footer .content-wrapper {
     width: 55%;
   }
+
+  footer .social {
+    margin: 0px 0px 40px 0px;
+  }
   
   footer .social-icons p {
     display: flex;
@@ -643,7 +647,6 @@
   
   footer .content-wrapper {
     width: 65%;
-    margin: 100px 0;
   }
   
   .footer-content {
